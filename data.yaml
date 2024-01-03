@@ -1,0 +1,15 @@
+path: /content/drive/MyDrive/cash_training/Currency-Identification-Smart-Glasses.v1i.yolov8/
+nc: 2
+names: 
+- atm-card
+- note
+
+roboflow:
+  workspace: abdul-wtwff
+  project: currency-suc3u
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/abdul-wtwff/currency-suc3u/dataset/2
+train: ../train/images
+val: ../valid/images
+test: ../test/images
